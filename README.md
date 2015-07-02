@@ -6,4 +6,7 @@ Just do
 ```
 sudo apt-get install libnss3-dev 
 make
+
+LD_PRELOAD="./follow.so" chromium-browser 
+
 ```
